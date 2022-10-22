@@ -7,10 +7,9 @@
     <meta name="description" content="Ebook Timeline" />
     <title>Timeline - The Story of my Life By Helen Keller</title>
     <link rel="stylesheet" href="ebookstyle.css" />
-    <script src="JavaScript.js"></script>
-
   </head>
-  <body class="backgroundColour">
+
+  <body>
     <div class="navbar">
       <ul>
         <li><a href="cover.html">Cover</a></li>
@@ -18,32 +17,55 @@
         <li><a href="tableofcontents.html">Contents</a></li>
       </ul>
     </div>
+    <div class="t1-container">
+      <h1 class="H1">Timeline</h1>
+    </div>
+    <main class="main">
+      <section>
+        <h2>Hover over dates to get more info</h2>
+        <div>
+          <div class="tl">
+            <div class="event">
+              <div class="bar-container">
+                <div class="bar"></div>
+                <span class="date">1880</span>
+                <div class="pop-up">
+                  <p class="info">
+                    Helen Keller is born in Tuscumbia, Alabama on June 27.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="bar-container">
+                <div class="bar"></div>
+                <span class="date">1882</span>
+                <div class="pop-up">
+                  <p class="info">
+                    In February, Keller contracts scarlet fever or meningitis
+                    and becomes deaf and blind at the age of 19 months.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="event">
+              <div class="bar-container">
+                <div class="bar"></div>
+                <span class="date">1886</span>
+                <div class="pop-up">
+                  <p class="info">
+                    Keller and her parents meet Alexander Graham Bell in July
+                    for guidance about how to communicate with and educate
+                    Helen.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <h1 class="H1">Timeline</h1>
-
-    <p class="content">Click the buttons on the timeline below to decover some key events in Helens life.</p>
-
-    <!-- Trigger/Open The Modal -->
-<button id="1880">1880</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>This text has changed</p>
-  </div>
-
-</div>
-
-    <img
-      src="Timeline_02.png"
-      alt="Timeline of key events"
-      class="center"
-    />
-
-
-</div>
+    <script src="/script.js"></script>
   </body>
 </html>
