@@ -1,0 +1,199 @@
+body{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.H1 {
+    font-family: Brush Script MT, Freestyle Script, cursive;
+    font-size: 70pt;
+    text-align: center;
+    color: white;
+  }
+  
+  .chapterContent {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18pt;
+    background-color: #a78b60ff;
+    color: white;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    line-height: 40px;
+  }
+  
+  .pageTitle {
+    font-family: Bernard MT Condensed, slab serif;
+    font-size: 70pt;
+    font-weight: 100;
+  }
+  
+  .coverTitle {
+    font-family: Brush Script MT, Freestyle Script, cursive;
+    font-size: 60pt;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 300px;
+  }
+  
+  #author {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 40pt;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 300px;
+  }
+  
+  .links {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18pt;
+    font-weight: 100;
+    color: white;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    line-height: 40px;
+  }
+  
+  .content {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18pt;
+    color: white;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    line-height: 40px;
+  }
+  
+  a:link {
+    color: #4da1a9ff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #d58936ff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #a78b60ff;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+  }
+   
+  .backgroundColour {
+    background-color: #4c461dff;
+}
+
+.coverImage {
+  background-image: url('coverimage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.coverLinks {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30pt;
+  font-weight: 100;
+  color: white;
+  background-color: #4c461dff;
+  text-align: center;
+  line-height: 60px;
+  position: relative;
+  top: 300px;
+}
+  
+.navbar {
+  text-align: center;
+  overflow: hidden;
+  background-color: #d58936ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0px;
+}
+
+.navbar ul {
+  display: inline-block;
+}
+.navbar li {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar li a {
+  float: left;
+  display: centre;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 52px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
